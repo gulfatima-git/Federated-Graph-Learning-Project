@@ -12,7 +12,7 @@ The project is intended as a small-scale implementation for understanding the fu
 
 ### Federated Learning Workflow
 
-![Federated GraphSAGE Training Workflow](images/federated_workflow.png)
+![Federated GraphSAGE Training Workflow](images/federated_workflow_v2.png)
 
 The workflow illustrates the basic federated training process used in this project. The global model is distributed to the simulated clients, each client performs local training, and the resulting model parameters are aggregated using FedAvg to update the global model.
 
@@ -227,7 +227,7 @@ Federated-Graph-Learning-Project/
 │
 ├── images/
 │   ├── class_distribution.png
-│   ├── federated_workflow.png
+│   ├── federated_workflow_v2.png
 │   └── model_comparison.png
 │
 └── data/
